@@ -17,4 +17,9 @@ int main() {
         std::cout << "Subcadena '" << sub_str << "' no encontrada." << std::endl;
     }
 
+    std::cout << "Longitud de la cadena: " << sentence.length() << std::endl;
+    std::cout << "¿Está la cadena vacía? " << (sentence.empty() ? "Sí" : "No") << std::endl;
+
+    return 0;
+}
 
